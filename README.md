@@ -1,20 +1,4 @@
-# api-quick-start
+# cookie-stand-api
 
-Template Project for starting up CRUD API with Django Rest Framework
+- Lab-34 PR : [link](https://github.com/nooromari/cookie-stand-api/pull/1) 
 
-## Customization Steps
-
-- add additional dependencies as needed
-- DO NOT migrate yet
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - renamed app's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- makemigrations/migrate
